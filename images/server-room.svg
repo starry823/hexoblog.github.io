@@ -1,0 +1,72 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#1a1a1a"/>
+  
+  <!-- 远处机房效果（渐变） -->
+  <linearGradient id="roomGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a1a1a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+  <rect width="600" height="400" fill="url(#roomGradient)" opacity="0.6"/>
+  
+  <!-- 服务器机架 -->
+  <rect x="100" y="50" width="400" height="300" rx="5" ry="5" fill="#2a2a2a"/>
+  
+  <!-- 机架边框 -->
+  <rect x="95" y="45" width="410" height="310" rx="7" ry="7" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  
+  <!-- 服务器设备（多个） -->
+  <!-- 服务器1 -->
+  <rect x="120" y="70" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="75" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="85" r="3" fill="#27ae60"/>
+  
+  <!-- 服务器2 -->
+  <rect x="120" y="110" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="115" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="125" r="3" fill="#27ae60"/>
+  
+  <!-- 服务器3 -->
+  <rect x="120" y="150" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="155" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="165" r="3" fill="#27ae60"/>
+  
+  <!-- 服务器4 -->
+  <rect x="120" y="190" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="195" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="205" r="3" fill="#e74c3c"/>
+  
+  <!-- 服务器5 -->
+  <rect x="120" y="230" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="235" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="245" r="3" fill="#27ae60"/>
+  
+  <!-- 服务器6 -->
+  <rect x="120" y="270" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="275" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="285" r="3" fill="#27ae60"/>
+  
+  <!-- 服务器7 -->
+  <rect x="120" y="310" width="360" height="30" rx="2" ry="2" fill="#3a3a3a"/>
+  <rect x="130" y="315" width="340" height="20" rx="1" ry="1" fill="#4a4a4a"/>
+  <circle cx="150" cy="325" r="3" fill="#27ae60"/>
+  
+  <!-- 服务器指示灯 -->
+  <circle cx="460" cy="85" r="2" fill="#3498db"/>
+  <circle cx="460" cy="125" r="2" fill="#3498db"/>
+  <circle cx="460" cy="165" r="2" fill="#3498db"/>
+  <circle cx="460" cy="205" r="2" fill="#e74c3c"/>
+  <circle cx="460" cy="245" r="2" fill="#3498db"/>
+  <circle cx="460" cy="285" r="2" fill="#3498db"/>
+  <circle cx="460" cy="325" r="2" fill="#3498db"/>
+  
+  <!-- 机房灯光效果 -->
+  <circle cx="100" cy="20" r="100" fill="#3498db" opacity="0.1"/>
+  <circle cx="500" cy="20" r="100" fill="#3498db" opacity="0.1"/>
+  
+  <!-- 散热孔 -->
+  <g fill="#2a2a2a">
+    <rect x="120" y="345" width="360" height="5" rx="1" ry="1"/>
+    <rect x="120" y="355" width="360" height="5" rx="1" ry="1"/>
+  </g>
+</svg>

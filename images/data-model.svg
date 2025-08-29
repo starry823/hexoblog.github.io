@@ -1,0 +1,75 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#f8f9fa"/>
+  
+  <!-- 渐变背景效果 -->
+  <linearGradient id="modelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#e3f2fd"/>
+    <stop offset="100%" stop-color="#f8f9fa"/>
+  </linearGradient>
+  <rect width="600" height="400" fill="url(#modelGradient)"/>
+  
+  <!-- 中心数据节点 -->
+  <circle cx="300" cy="200" r="80" fill="#2196f3" opacity="0.1"/>
+  <circle cx="300" cy="200" r="70" fill="#2196f3" opacity="0.2"/>
+  <circle cx="300" cy="200" r="60" fill="#2196f3" opacity="0.3"/>
+  <circle cx="300" cy="200" r="50" fill="#2196f3"/>
+  
+  <!-- 数据流连接线 -->
+  <g stroke="#2196f3" stroke-width="2" stroke-dasharray="5,3">
+    <line x1="300" y1="50" x2="300" y2="150"/>
+    <line x1="100" y1="200" x2="250" y2="200"/>
+    <line x1="350" y1="200" x2="500" y2="200"/>
+    <line x1="300" y1="250" x2="300" y2="350"/>
+    <line x1="180" y1="100" x2="270" y2="170"/>
+    <line x1="330" y1="170" x2="420" y2="100"/>
+    <line x1="420" y1="300" x2="330" y2="230"/>
+    <line x1="270" y1="230" x2="180" y2="300"/>
+  </g>
+  
+  <!-- 周围数据节点 -->
+  <circle cx="300" cy="50" r="20" fill="#2196f3"/>
+  <circle cx="100" cy="200" r="20" fill="#2196f3"/>
+  <circle cx="500" cy="200" r="20" fill="#2196f3"/>
+  <circle cx="300" cy="350" r="20" fill="#2196f3"/>
+  <circle cx="180" cy="100" r="20" fill="#2196f3"/>
+  <circle cx="420" cy="100" r="20" fill="#2196f3"/>
+  <circle cx="180" cy="300" r="20" fill="#2196f3"/>
+  <circle cx="420" cy="300" r="20" fill="#2196f3"/>
+  
+  <!-- 数据点 -->
+  <g fill="#64b5f6">
+    <circle cx="300" cy="200" r="10"/>
+    <circle cx="300" cy="50" r="10"/>
+    <circle cx="100" cy="200" r="10"/>
+    <circle cx="500" cy="200" r="10"/>
+    <circle cx="300" cy="350" r="10"/>
+    <circle cx="180" cy="100" r="10"/>
+    <circle cx="420" cy="100" r="10"/>
+    <circle cx="180" cy="300" r="10"/>
+    <circle cx="420" cy="300" r="10"/>
+  </g>
+  
+  <!-- 数据标签（简单表示） -->
+  <text x="300" y="205" font-family="Arial" font-size="14" text-anchor="middle" fill="white">AI</text>
+  <text x="300" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="white">ML</text>
+  <text x="100" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="white">DL</text>
+  <text x="500" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="white">NLP</text>
+  <text x="300" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="white">CV</text>
+  <text x="180" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="white">RNN</text>
+  <text x="420" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="white">CNN</text>
+  <text x="180" y="305" font-family="Arial" font-size="12" text-anchor="middle" fill="white">GPT</text>
+  <text x="420" y="305" font-family="Arial" font-size="12" text-anchor="middle" fill="white">BERT</text>
+  
+  <!-- 装饰性网格线 -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+  </g>
+</svg>
